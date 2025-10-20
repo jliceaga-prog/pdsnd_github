@@ -22,6 +22,7 @@ def get_filters():
     cities = ['chicago', 'new york city', 'washington']
 
     # Get user input for city
+	"""Este While  lo que hace es que hasta que no pone un valor válido de ciudad, no para de preguntar"""
     while True:
         city = input("Please enter a city (chicago, new york city, washington): ").lower()
         if city in cities:
