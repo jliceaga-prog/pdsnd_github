@@ -127,7 +127,7 @@ def time_stats(df):
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
-
+	"""Aquí muestra el timestamp del momento para poder calcular el tiempo a posteriori"""
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
