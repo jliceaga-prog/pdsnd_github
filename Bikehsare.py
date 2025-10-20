@@ -180,7 +180,7 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
-    
+    """En esta línea de código, nos muestra por pantallada cuántos tipos diferentes de usuario hay en la bbdd"""
     print("Counts of user types:")
     print(df['User Type'].value_counts())
     print()
