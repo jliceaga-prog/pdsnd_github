@@ -42,6 +42,7 @@ def get_filters():
             print("Invalid input. Please enter a valid month or 'all'.")
 
     # Valid days
+	"""Aquí sólo ponemos los días válidos"""
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
     # Get user input for day
