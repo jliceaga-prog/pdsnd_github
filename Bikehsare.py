@@ -22,7 +22,6 @@ def get_filters():
     cities = ['chicago', 'new york city', 'washington']
 
     # Get user input for city
-	"""Este While  lo que hace es que hasta que no pone un valor válido de ciudad, no para de preguntar"""
     while True:
         city = input("Please enter a city (chicago, new york city, washington): ").lower()
         if city in cities:
@@ -42,7 +41,6 @@ def get_filters():
             print("Invalid input. Please enter a valid month or 'all'.")
 
     # Valid days
-	"""Aquí sólo ponemos los días válidos"""
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
     # Get user input for day
@@ -127,7 +125,6 @@ def time_stats(df):
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
-	"""Aquí muestra el timestamp del momento para poder calcular el tiempo a posteriori"""
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -182,7 +179,6 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
-    """En esta línea de código, nos muestra por pantallada cuántos tipos diferentes de usuario hay en la bbdd"""
     print("Counts of user types:")
     print(df['User Type'].value_counts())
     print()
