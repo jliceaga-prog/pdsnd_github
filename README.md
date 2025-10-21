@@ -15,6 +15,15 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+HEAD
 ### Edits Refactoring	
 It's and edit to Refactoring Branch
+
+### Edit
+It's a simple edit to see that it works fine
+
+### Edit Documentation
+Second edit into the documentation branch
+
+1e5b297fd3130357d0a973f9e420dd4f0dc752dd
 
