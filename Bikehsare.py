@@ -125,6 +125,7 @@ def time_stats(df):
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
+
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -179,6 +180,7 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
+    
     print("Counts of user types:")
     print(df['User Type'].value_counts())
     print()
