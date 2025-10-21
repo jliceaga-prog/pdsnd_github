@@ -70,6 +70,8 @@ def get_filters():
 
 
 def load_data(city, month, day):
+	
+	"""Comment into load_Data_Refactoring"""
     """
     Loads data for the specified city and filters by month and day if applicable.
 
