@@ -72,8 +72,6 @@ def get_filters():
 
 
 def load_data(city, month, day):
-	
-	"""Comment into load_Data_Refactoring"""
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -117,10 +115,11 @@ def time_stats(df):
     print(f"Most common month: {common_month.capitalize()}")
     # TO DO: display the most common day of week
     common_day = df['day_of_week'].mode()[0]
-    print(f"Most common month: {common_month.capitalize()}")
+    print(f"Most common month of the week: {common_month.capitalize()}")
     # TO DO: display the most common start hour
-    common_day = df['day_of_week'].mode()[0]
-    print(f"Most common day of week: {common_day.capitalize()}")
+	common_hour = df['start_hour'].mode()[0]
+	print(f"Most common start hour: {common_hour}")
+
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -241,8 +240,8 @@ def main():
         
         display_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter YES or no.\n')
+        if restart.lower() != 'YES':
             break
 
 
