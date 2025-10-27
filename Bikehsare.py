@@ -119,7 +119,8 @@ def time_stats(df):
     # TO DO: display the most common start hour
     common_day = df['day_of_week'].mode()[0]
     print(f"Most common day of week: {common_day.capitalize()}")
-
+"""Calculates and prints how long the function took to execute.
+Prints a separator line for clarity."""
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
