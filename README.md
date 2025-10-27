@@ -22,7 +22,6 @@ This Python code analyzes shared bicycle usage data in three U.S. cities (Chicag
 ### Credits
 Everything that has been done in this project has been thanks to the teachings of this Udacity course, as well as random Google searches
 
-HEAD
 ### Edits Refactoring	
 It's and edit to Refactoring Branch
 
@@ -31,6 +30,4 @@ It's a simple edit to see that it works fine
 
 ### Edit Documentation
 Second edit into the documentation branch
-
-1e5b297fd3130357d0a973f9e420dd4f0dc752dd
 
