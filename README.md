@@ -2,18 +2,25 @@
 
 ### Date created
 Include the date you created this project and README file.
+Creation of the project 14/20/2025
+Creation of Bikeshare.py  17/10/2025
+Creation of READEM file  21/10/2025
 
 ### Project Title
-Replace the Project Title
+The title of the project is Bikehsare
 
 ### Description
-Describe what your project is about and what it does
+This Python code analyzes shared bicycle usage data in three U.S. cities (Chicago, New York, and Washington) using CSV files. It asks the user to choose a city, month, and day to filter the data. It displays statistics about the most used months, day of the week, total travel time, user types, etc. And it allows you to view the results in batches of 5 rows if the user needs it.
 
 ### Files used
-Include the files used
+*Bikehsare
+*new_york_city.CSV
+*chicago.CSV
+*washington.CSV
+*Bikehsare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Everything that has been done in this project has been thanks to the teachings of this Udacity course, as well as random Google searches
 
 HEAD
 ### Edits Refactoring	
